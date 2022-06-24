@@ -1,0 +1,41 @@
+{
+  "name": "restaurantmanage",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "nodemon app.js",
+    "watch": "nodemon  --ignore public"
+  },
+  "author": "ahmad",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "bootstrap": "^5.1.3",
+    "connect-session-sequelize": "^7.1.2",
+    "crypto": "^1.0.1",
+    "csurf": "^1.11.0",
+    "express": "^4.17.2",
+    "express-generator": "^4.16.1",
+    "express-react-views": "^0.11.0",
+    "express-session": "^1.17.2",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.2",
+    "otp-generator": "^4.0.0",
+    "path": "^0.12.7",
+    "pdfkit": "^0.13.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^6.2.1",
+    "sequelize": "^6.14.0"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.15"
+  }
+}

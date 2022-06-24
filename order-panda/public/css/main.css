@@ -1,0 +1,116 @@
+
+html{
+    margin:0px;
+    padding:0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    float: left;
+}
+.heading{
+    background-color: tomato;
+    color: whitesmoke;
+}
+/* signup system.........*/
+.form-container{
+    width: 300px;
+    background-color: tomato;
+    margin-left: 500px;
+    position: relative;
+    top: 60px;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* close signup system...*/
+
+/* list */
+.list{
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+    float: left; 
+}
+.logo {
+    margin-top: -15px;
+    color:white;
+}
+ul li{
+    float: left;
+}
+.main-menu{
+    float:left;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.main-menu:hover{
+    color: yellow;
+}
+
+/*..resend button......*/
+.resend-btn{
+    margin-left: 49%;
+    margin-top:18px;
+}
+.form-sin{
+    z-index: 9999;
+    position: relative;
+}
+/*....list-container*/
+.list-container{
+    background-color: teal;
+    width: 1215px !important;
+    height: 50px;
+    float: left;
+}
+
+.logout-container{
+    margin-left: 1110px;
+    margin-top: 10px;
+}
+.log-btn{
+    background-color: white;
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.log-btn:hover{
+    color: white;
+    background-color: yellow;
+}
+.log-red{
+    text-decoration: none;
+}
+.log-red:visited{
+    text-decoration: none;
+
+    color: black;
+}
+
+.productlist{
+    list-style-type: none;
+    background-color: tomato;
+    border: 1px solid black;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.productinnerlist{
+    display: block;
+    float: none;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: -30px; 
+}
+.prod-anchor{
+    text-decoration: none;
+    color: black;
+    margin-top: -20px;
+}
+.prod-anchor:hover{
+color: white;
+}

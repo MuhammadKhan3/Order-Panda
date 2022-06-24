@@ -1,0 +1,55 @@
+.head{
+    margin: 0px;
+}
+.list-container2{
+    float: left;
+}
+.prodlist{
+    float: right;
+    background-color: limegreen;
+    color:white;
+    border-bottom: 2px solid white;  
+    width: 400px;
+    padding: 10px;
+}
+.mainlist{
+    margin: 0px;
+    list-style-type: none;
+    width:500px;
+    margin-left:35%;
+    height: 290px;
+    border-radius: 10px;
+    position:relative;
+    top: 50px;
+    background-color: tomato;
+    z-index: 99;
+}
+.redbtn{
+    background-color: red;
+    color: white;
+    float: left;
+    margin-left: 300px;
+    border: none;
+    padding:7px;
+    border-radius: 10px;
+    width:70px
+}
+.redbtn:hover{
+     background-color: white;
+     color: black;
+}
+.deleteform{
+    float: left;
+    margin: 0px;
+}
+.center-btn{
+    margin-left: 640px;
+    margin-top: 40px;
+}
+.main{
+    margin: 0px;
+    padding: 0px;
+}
+.heading1{
+    margin: 0px;
+}

@@ -1,0 +1,9 @@
+.email-form{
+    width: 300px;
+    margin-left: 38%;
+    background-color: tomato;
+    color:white;
+    position: relative;
+    top: 60px;
+    border-radius: 10px;
+}
